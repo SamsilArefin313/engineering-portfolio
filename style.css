@@ -23,7 +23,7 @@ html {
 }
 
 .skills-section {
-    margin: 2rem 0 4rem;
+    margin: 1rem 0;
     padding: 2rem 0;
     scroll-margin-top: 1rem;
 }
@@ -184,7 +184,7 @@ body.bg-dark {
 }
 
 .content-section, #projects, #small-projects {
-    padding: 3rem 0;
+    padding: 2rem 0;
     scroll-margin-top: 1rem;
 }
 
