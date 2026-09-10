@@ -285,6 +285,14 @@ body.bg-dark {
     line-height: 1.65;
 }
 
+.project-summary p {
+    margin-bottom: 0.7rem;
+}
+
+.project-summary p:last-child {
+    margin-bottom: 0;
+}
+
 .project-summary strong {
     color: var(--text);
 }
