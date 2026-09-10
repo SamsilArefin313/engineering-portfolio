@@ -277,6 +277,23 @@ body.bg-dark {
     aspect-ratio: 16 / 10;
     object-fit: cover;
     background: #0c0f12;
+    transition: opacity 160ms ease;
+}
+
+.project-image-link {
+    display: block;
+    background: #0c0f12;
+    cursor: zoom-in;
+}
+
+.project-image-link:hover .card-img-top,
+.project-image-link:focus-visible .card-img-top {
+    opacity: 0.82;
+}
+
+.project-image-link:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
 }
 
 #carouselExampleIndicators {
