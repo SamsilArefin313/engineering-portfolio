@@ -223,6 +223,16 @@ body.bg-dark {
     font-size: 0.9rem;
 }
 
+.pathway-note {
+    margin-top: 0.9rem;
+    padding: 0.85rem 1rem;
+    color: var(--text);
+    background: var(--accent-strong);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 5px 5px 0;
+    line-height: 1.65;
+}
+
 .item-date {
     font-size: 0.85rem;
     font-weight: 700;
