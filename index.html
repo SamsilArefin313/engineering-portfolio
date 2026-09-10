@@ -34,6 +34,9 @@
               <a class="nav-link active btn-hover ms-4" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link active btn-hover ms-4" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active btn-hover ms-4" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
@@ -62,16 +65,57 @@
         </h1>
 
         <h5>Introduction</h5>
+        <h5 class="profile-tagline">"A journey from datasheet to dataset...!"</h5>
         <p>
-          <h5>"A journey from datasheet to dataset... !"</h5>
           I am an Electronics and Computer enthusiast. I am deeply dedicated to Embedded 
           Systems and Machine Vision development, such as Embedded AI, Embedded Machine 
           Vision, IoT, and Robotics. I love to solve real-world problems through my 
           experiments.
         </p>
 
-        
+      </div>
     </div>
+
+    <section id="skills" class="skills-section" aria-labelledby="skills-heading">
+      <div class="section-heading">
+        <p class="section-label">Technical expertise</p>
+        <h2 id="skills-heading">Skills &amp; Competencies</h2>
+        <p>Core capabilities developed through research, industrial automation, and hands-on prototyping.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-group">
+          <i class="fas fa-microchip skill-icon" aria-hidden="true"></i>
+          <h3>Embedded Systems</h3>
+          <p>STM32 HAL, ESP32, Arduino, Raspberry Pi, PlatformIO, Keil MDK, ST-LINK</p>
+        </article>
+        <article class="skill-group">
+          <i class="fas fa-code skill-icon" aria-hidden="true"></i>
+          <h3>Programming</h3>
+          <p>C, C++, Python</p>
+        </article>
+        <article class="skill-group">
+          <i class="fas fa-eye skill-icon" aria-hidden="true"></i>
+          <h3>Computer Vision &amp; AI</h3>
+          <p>OpenCV, YOLO, SSD, GoogLeNet, embedded AI, machine vision</p>
+        </article>
+        <article class="skill-group">
+          <i class="fas fa-chart-line skill-icon" aria-hidden="true"></i>
+          <h3>Data Science</h3>
+          <p>NumPy, Pandas, Scikit-learn, Matplotlib</p>
+        </article>
+        <article class="skill-group">
+          <i class="fas fa-drafting-compass skill-icon" aria-hidden="true"></i>
+          <h3>Electronics &amp; PCB Design</h3>
+          <p>Circuit design, PCB layout, soldering, prototyping, troubleshooting, EasyEDA, Proteus, Flux.ai</p>
+        </article>
+        <article class="skill-group">
+          <i class="fas fa-robot skill-icon" aria-hidden="true"></i>
+          <h3>Application Domains</h3>
+          <p>Internet of Things, robotics, embedded machine learning, automation</p>
+        </article>
+      </div>
+    </section>
 
     <!------------------
              Project Card Area  
@@ -189,7 +233,7 @@
                 ground surface. Machine vision, on the other hand, can detect objects from a greater distance
                 than sensors. In our proposed system, we introduced a machine vision approach based on a 
                 Raspberry Pi, which combines YOLOv5n deep learning model and OpenCV to detect different types
-                of derailment. Our system can be used as a rail track detection system by analyzing realtime 
+                of derailment. Our system can be used as a rail track detection system by analyzing real-time
                 video data.
               </p>
             </div>
@@ -383,7 +427,7 @@
             <img src="images/project/Face recog.PNG" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">
-                Face Recognition & Temperature Detection Based Automatic Gate
+                Face Recognition &amp; Temperature Detection Based Automatic Gate
               </h5>
               <p class="card-text">
                 In this system, an ESP32 Cam is used for face detection and 
