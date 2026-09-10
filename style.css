@@ -59,22 +59,21 @@ html {
 }
 
 .skill-group {
-    min-height: 180px;
-    padding: 1.25rem;
+    padding: 1rem;
     background: #24282e;
     border: 1px solid #3d444d;
     border-radius: 6px;
 }
 
 .skill-group h3 {
-    margin: 0.9rem 0 0.65rem;
+    margin: 0.55rem 0 0.4rem;
     font-size: 1.05rem;
     font-weight: 700;
 }
 
 .skill-group p {
     color: #c9ced6;
-    line-height: 1.65;
+    line-height: 1.5;
     margin: 0;
 }
 
@@ -225,7 +224,11 @@ body.bg-dark {
 
 .pathway-note {
     margin-top: 0.9rem;
+    padding: 0;
     color: var(--accent);
+    background: none;
+    border: 0;
+    border-radius: 0;
     line-height: 1.65;
 }
 
